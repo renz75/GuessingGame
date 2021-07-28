@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/guesses_list"
+        android:entryValues="@array/guesses_list"
+        android:key="pref_numberOfChoices"
+        android:persistent="true"
+        android:summary="Display 3,6 or 9 guess buttons"
+        android:title="@string/number_of_choices"
+        android:defaultValue="3" />
+
+    <MultiSelectListPreference
+        android:entries="@array/types_list_for_settings"
+        android:entryValues="@array/types_list"
+        android:key="pref_typesToInclude"
+        android:title="@string/animal_types"
+        android:summary="Types to include in the quiz"
+        android:persistent="true"
+        android:defaultValue="@array/types_list" />
+
+
+</PreferenceScreen>

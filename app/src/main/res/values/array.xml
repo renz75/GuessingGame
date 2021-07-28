@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="types_list">
+        <item>Farm</item>
+        <item>Wild</item>
+
+    </string-array>
+    <string-array name="types_list_for_settings">
+        <item>Farm</item>
+        <item>Wild</item>
+    </string-array>
+    <string-array name="guesses_list">
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+    </string-array>
+
+</resources>

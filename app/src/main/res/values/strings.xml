@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Guessing Game</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="number_of_choices">Number of Choices</string>
+    <string name="number_of_choices_description">Display 2, 4, 6 or 8 guess buttons</string>
+    <string name="animal_types">Types</string>
+    <string name="animal_types_description">Animals to include in the quiz</string>
+    <string name="guess_animal">Guess the Animal</string>
+    <string name="results">%1$d guesses, %2$.02f%% correct</string>
+    <string name="incorrect_answer">Incorrect !</string>
+    <string name="default_types_message">One type must be selected, Setting Farm as the default animal</string>
+    <string name="restarting_quiz">Quiz will restart with your new settings</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="reset_quiz">Reset Quiz</string>
+    <string name="image_description">Image of the current animal in the quiz</string>
+    <string name="default_animal">Farm</string>
+    <string name="image_description_snail">snail on leaf</string>
+</resources>
